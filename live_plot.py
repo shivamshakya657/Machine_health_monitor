@@ -1,5 +1,4 @@
-# live_plot.py
-
+# This code plot the live data of temperature and vibration sensor.
 import matplotlib.pyplot as plt
 from sensor.temperature import read_temperature
 from sensor.mpu6050 import read_vibration
